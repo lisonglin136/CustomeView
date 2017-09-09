@@ -5,6 +5,7 @@ import com.lsl.customeview.model.IMainItemModel;
 import com.lsl.customeview.model.impl.MainItemModelImpl;
 import com.lsl.customeview.view.IMainView;
 
+import java.lang.ref.WeakReference;
 import java.util.List;
 
 /**
@@ -17,12 +18,13 @@ import java.util.List;
  */
 public class MainPresenter {
 
-    IMainView mainView;
+    //    IMainView mainView;
+    WeakReference<IMainView> mainView;
     IMainItemModel mMainItemModel;
 
 
     public MainPresenter(IMainView mainView) {
-        this.mainView = mainView;
+        this.mainView = new WeakReference<>(mainView);
         mMainItemModel = new MainItemModelImpl();
     }
 
@@ -31,7 +33,7 @@ public class MainPresenter {
             mMainItemModel.loadMainItem(new IMainItemModel.MainItemOnLoadListener() {
                 @Override
                 public void onComplete(List<MainItemBean> list) {
-                    mainView.showData(list);
+                    mainView.get().showData(list);
                 }
             });
         }
