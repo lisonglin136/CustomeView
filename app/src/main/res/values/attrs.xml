@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="FunnelView">
+        <attr name="topColor" format="color"/><!--顶部梯形颜色-->
+        <attr name="middleColor" format="color"/><!--中间梯形颜色-->
+        <attr name="bottomColor" format="color"/><!--底部梯形颜色-->
+        <attr name="trapeziumTextColor" format="color"/><!--梯形文字的颜色-->
+        <attr name="linkLineColor" format="color"/><!--连接线颜色-->
+        <attr name="chieseTextColor" format="color"/><!--梯形外中文文字颜色-->
+        <attr name="numberTextColor" format="color"/>梯形外数字文字颜色
+        <attr name="trapeziumTextSize" format="dimension"/><!--梯形中字体的大小-->
+        <attr name="chineseTextSize" format="dimension"/><!--梯形外中文字体的大小-->
+        <attr name="numberTextSize" format="dimension"/><!--梯形外数字字体的大小-->
+        <attr name="getPercent" format="string"/><!--达到率-->
+        <attr name="changePercent" format="string"/><!--转换率-->
+        <attr name="usePercent" format="string"/><!--使用率-->
+        <attr name="provideCount" format="string"/><!--优惠券发放数量-->
+        <attr name="receiveCount" format="string"/><!--会员领取优惠券数量-->
+        <attr name="useCount" format="string"/><!--会员使用优惠券数量-->
+    </declare-styleable>
+</resources>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">lsl_CustomeView</string>
+    <string name="getPercent">达到率</string>
+    <string name="changePercent">转换率</string>
+    <string name="usePercent">使用率</string>
+    <string name="provideCount">优惠券发放数量</string>
+    <string name="receiveCount">会员领取优惠券数量</string>
+    <string name="useCount">会员使用优惠券数量</string>
+</resources>
