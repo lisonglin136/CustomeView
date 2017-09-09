@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name="com.lsl.customeview.activity.MainActivity"
+            android:name=".ui.activity.MainActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden">
@@ -20,15 +20,23 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.lsl.customeview.activity.WaterViewActivity"
+        <!--水面上升-->
+        <activity android:name=".ui.activity.WaterViewActivity"
                   android:configChanges="keyboardHidden|orientation|screenSize"
                   android:screenOrientation="portrait"
                   android:windowSoftInputMode="stateHidden"/>
-        <activity android:name="com.lsl.customeview.activity.FunnelActivity"
+        <!--漏斗图-->
+        <activity android:name=".ui.activity.FunnelActivity"
                   android:configChanges="keyboardHidden|orientation|screenSize"
                   android:screenOrientation="portrait"
                   android:windowSoftInputMode="stateHidden"/>
-        <activity android:name=".activity.LoveActivity"
+        <!--点赞飘心-->
+        <activity android:name=".ui.activity.LoveActivity"
+                  android:configChanges="keyboardHidden|orientation|screenSize"
+                  android:screenOrientation="portrait"
+                  android:windowSoftInputMode="stateHidden"/>
+        <!--viewpage切换动画-->
+        <activity android:name=".ui.activity.ViewPagerActivity"
                   android:configChanges="keyboardHidden|orientation|screenSize"
                   android:screenOrientation="portrait"
                   android:windowSoftInputMode="stateHidden"/>

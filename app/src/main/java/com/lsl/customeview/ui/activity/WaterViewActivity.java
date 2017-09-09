@@ -1,4 +1,4 @@
-package com.lsl.customeview.activity;
+package com.lsl.customeview.ui.activity;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;

@@ -1,4 +1,4 @@
-package com.lsl.customeview.activity;
+package com.lsl.customeview.ui.activity;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -56,6 +56,9 @@ public class MainActivity extends AppCompatActivity implements IMainView {
                         break;
                     case 2:
                         startActivity(new Intent(MainActivity.this, LoveActivity.class));
+                        break;
+                    case 3:
+                        startActivity(new Intent(MainActivity.this, ViewPagerActivity.class));
                         break;
 
                 }
