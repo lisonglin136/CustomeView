@@ -22,7 +22,7 @@ public class MainItemModelImpl implements IMainItemModel {
         List<MainItemBean> dataList = new ArrayList<>();
         dataList.add(new MainItemBean("水面上升", R.mipmap.water));
         dataList.add(new MainItemBean("漏斗图", R.mipmap.funnel));
-        dataList.add(new MainItemBean("点赞飘心", R.mipmap.funnel));
+        dataList.add(new MainItemBean("点赞飘心", R.mipmap.love));
         dataList.add(new MainItemBean("ViewPager切换", R.mipmap.viewpagerview));
 
         //返回数据
